@@ -1,3 +1,15 @@
+@font-face {
+    font-family: robototitulos ;
+    src: url(fonts/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: robotosubtitulos;
+    src: url(fonts/Roboto-Thin.ttf);
+  }
+  @font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Italic.ttf);
+  }
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +25,28 @@ $color5: #8b8b8b96;
 $color6: ;
 
 // font size
-$sm: 16px;
-$ms: ;
+$xl: 60px;
+$ms: 25px;
+$sm: 22px;
+$xs: 16px;
+
+// font
+$titulo: robototitulos;
+$subtitulo: robotosubtitulos;
+$roboto: roboto;
+h1{
+    
+}
+.navbar{
+    background-color: $color2;
+    color: $color1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
 
 
